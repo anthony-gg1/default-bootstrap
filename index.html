@@ -54,17 +54,64 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section class="d-flex align-items-center justify-content-center min-vh-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-white shadow-lg rounded-4 p-5 my-4"
-                        style="min-height: 80vh;">
-                        <h1 class="text-dark text-center p-3">Site simples com bootstrap</h1>
+    <main class="container my-5">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <div id="carouselTexto" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2500">
+                            <h1 class="display-4 fw-bold">Site simples com Bootstrap</h1>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <h1 class="display-4 fw-bold text-primary">Desenvolvimento Moderno</h1>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <h1 class="display-4 fw-bold text-success">Interface Responsiva</h1>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Code">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bootstrap 5</h5>
+                        <p class="card-text">O framework front-end mais popular do mundo para designs responsivos.</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Development">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Grid System</h5>
+                        <p class="card-text">Facilidade extrema para alinhar elementos usando containers, linhas e
+                            colunas.</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Web Design">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Componentes</h5>
+                        <p class="card-text">Cards, botões, navbars e carrosséis prontos para serem utilizados.</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
